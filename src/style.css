@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* VARIABLES */
+:root {
+  --color-header: #ffffff;
+  --color-text: #f7f7f7a0;
+  --color-btn-text: #739efc;
+  --color-btn-border: 2px solid rgba(230, 236, 255, 0.98);
+  --transition: 0.2s;
+}
+
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* GLOBAL */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px/16px */
+}
+
+/* MAIN CONTENT */
+.grid {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items wrap to the next line when necessary */
+  justify-content: center; /* Centers flex items horizontally */
+  gap: 3rem; /* Adjust as needed */
+  width: 100%;
+  padding: 0 3rem; /* Add padding to the sides as needed */
+}
+
+.grid .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E2635;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: var(--transition);
+  width: 40rem; /* Initial width for each card */
+  margin-bottom: 3rem; /* Vertical margin between cards */
+}
+
+.grid .card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.grid .card__img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.grid .card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content inside each card is evenly spaced */
+  padding: 2rem;
+  height: 100%;
+}
+
+.grid .card__header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--color-header);
+  margin-bottom: 1rem; /* Adjust spacing between header and text */
+}
+
+.grid .card__text {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 1rem; /* Adjust spacing between text and button */
+}
+
+.grid .card__btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  margin-top:3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color-btn-text);
+  background-color: var(--color-btn-background); /* Define this variable if needed */
+  border: none;
+  border-radius: 0.4rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.grid .card__btn:hover,
+.grid .card__btn:active {
+  background-color: rgba(230, 236, 255, 0.201); /* Example RGBA value */
+}
+
+.completely {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

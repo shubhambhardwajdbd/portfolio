@@ -1,0 +1,63 @@
+.heading1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 10% 0 3% 0;
+    
+}
+
+img.why_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.mid_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 4px 0px;
+    color: white;
+}
+
+.main_text_why {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 2px 0;
+}
+
+.box {
+    background-color: #1E2635;
+    width: 100%; /* Adjusted to 100% for full width within .modiv */
+    max-width: 260px; /* Maximum width to maintain consistent sizing */
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 5%;
+    padding-top: 20px; /* Keep the margin for spacing */
+}
+
+.neww {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: space-between; /* Distribute items evenly across the container */
+}
+
+.modiv {
+    width: 50%; /* Each .modiv takes up 50% of the parent (.neww) */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+
+.flex2 {
+    height: 100%; /* Fill the available height within .modiv */
+}
+
+.down_gap{
+    margin-bottom:3%;
+}
+.up_gap{
+    margin-top:10%;
+}

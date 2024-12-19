@@ -1,0 +1,130 @@
+.it_is_me{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 0;
+}
+.names{
+    color:#03B0FD;
+    font-family: "Inder", sans-serif;
+    font-weight: 400px;
+    font-size: 60px;
+    text-align: left;
+    margin: 0;
+}
+.i_am_a{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    margin: 20px 0;
+}
+.right_main{
+    width:40%;
+    
+}
+.Main{
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.main_left{
+    width:45%;
+    margin-top:3%;
+}
+.follow_me{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+}
+.logos img {
+    height:30px;
+    width:30px;
+    margin: 0 7px;
+    
+}
+
+.buttonb {
+    padding: 12.5px 30px;
+    height:50px;
+    width:150px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #03B0FD;
+    color: #151925;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-left:30px;
+    cursor: pointer;
+  }
+  
+  .buttonb:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+    
+  }
+  
+  .buttonb:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  .buttonc {
+    cursor: pointer;
+    padding: 12.5px 30px;
+    height:50px;
+    width:150px;
+    border: 2px solid #03B0FD;
+    border-radius: 25px;
+    background-color: #151925;
+    color: #03B0FD;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .buttonc:hover {
+    background-color: #151925;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .buttonc:active {
+    background-color: #151925;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+.shape {
+    
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    fill: #3498db; /* Adjust color as needed */
+  }
+
+
+  img .behind_the_image{
+    height:100px;
+  }
+  
+    

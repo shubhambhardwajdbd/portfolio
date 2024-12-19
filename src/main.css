@@ -1,0 +1,130 @@
+.navbar{
+  position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100px;
+  background-color: #151925;
+  transition: top 0.3s;
+}
+.left{
+  width:35%;
+  display: flex;
+  justify-content: left;
+}
+.right{
+  width:55%;
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: transparent;
+  border-color: transparent;
+  width:120px;
+  height:30px;
+  font-size: 18px;
+  color:#03B0FD;
+  cursor: pointer;
+}
+.button {
+position: relative;
+border: none;
+transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+transition-duration: 400ms;
+transition-property: color;
+}
+
+.button:focus,
+.button:hover {
+color: #fff;
+}
+
+.button:focus:after,
+.button:hover:after {
+width: 100%;
+left: 0%;
+}
+
+.button:after {
+content: "";
+pointer-events: none;
+bottom: -2px;
+left: 50%;
+position: absolute;
+width: 0%;
+height: 2px;
+background-color: #fff;
+transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+transition-duration: 400ms;
+transition-property: width, left;
+}
+
+
+body{
+  background-color: #151925;
+}
+.title{
+  color:white;
+  font-family:"Poppins", sans-serif;
+  font-weight: 600;
+}
+
+
+@keyframes typing {
+  /* web developer */
+  0%, 27.3488% { content: ""; }
+  1.667%, 48.2093% { content: "w"; }
+  3.334%, 46.0698% { content: "we"; }
+  5.001%, 44.9302% { content: "web"; }
+  6.668%, 42.7907% { content: "web "; }
+  8.335%, 40.6512% { content: "web d"; }
+  11.669%, 38.5116% { content: "web de"; }
+  13.336%, 36.3721% { content: "web dev"; }
+  15.003%, 34.2326% { content: "web deve"; }
+  16.670%, 32.0930% { content: "web devel"; }
+  19.3953%, 31.9535% { content: "web develo"; }
+  21.5349%, 29.8140% { content: "web develop"; }
+  23.6744%, 28.6744% { content: "web develope"; }
+  25.8140%, 26.5349% { content: "web developer"; }
+
+  /* ai-ml developer */
+  50.4186%, 99.9302% { content: ""; }
+  52.5581%, 98.7907% { content: "a"; }
+  54.6977%,  97.6512%{ content: "mren"; }
+  56.8372%,  96.5116%{ content: "mern-"; }
+  58.9767%,  95.3721%{ content: "mern-s"; }
+  60.1163%,  94.2326%{ content: "mern-stack"; }
+  62.2558%,  93.0930%{ content: "mern-stack "; }
+  64.3953%,  92.9535%{ content: "mern-stack d"; }
+  66.5349%,  91.2345%{ content: "mern-stack de"; }
+  68.6744%,  90.8140%{ content: "mern-stack dev"; }
+  70.8140%,  89.4943%{ content: "mern-stack deve"; }
+  72.9535%, 88.6744% { content: "mern-stack devel"; }
+  74.0930%, 86.5349% { content: "mern-stack develo"; }
+  76.2326%, 84.3953% { content: "mern-stack develop"; }
+  78.3721%, 82.2558% { content: "mern-stack develope"; }
+  78.5116%, 80.1163% { content: "mern-stack developer"; }
+}
+
+
+
+.typewriter {
+  --caret:#03B0FD;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}

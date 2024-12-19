@@ -1,0 +1,25 @@
+.heading{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.about_me_left{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.8);
+    width:50%;
+}
+.about_me_right{
+    width:40%;
+}
+.about_me_info{
+    display:flex;
+    justify-content: center;
+}
+.about_me{
+    margin-top: 10%;
+}

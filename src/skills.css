@@ -1,0 +1,16 @@
+.heading2{
+    color:rgba(255, 255, 255, 0.6);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.skills{
+    margin-top: 10%;
+    
+}
+.flex2{
+    display: flex;
+    width:100%;
+}
+
